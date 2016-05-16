@@ -1,0 +1,196 @@
+body{
+    overflow:hidden;
+}
+#seletor-mapa{
+    position:relative;
+    border:solid 1px black;
+    display:inline-block;
+    width: 512px;
+    height: 512px;
+    z-index: 0;
+}
+#seletor-itens{
+    background-color: rgba(255,255,255,0.5);
+    position:relative;
+    top: -514px;
+    border:solid 1px black;
+    display:inline-block;
+    width: 512px;
+    height: 512px;
+    display: none;
+    z-index: 1;
+}
+#seletor-colisao{
+    background-color: rgba(255,255,255,0.5);
+    position:relative;
+    top: -514px;
+    border:solid 1px black;
+    display:inline-block;
+    width: 512px;
+    height: 512px;
+    display: none;
+    z-index: 1;
+}
+.selected{
+    background-color:red;
+    color: black;
+    font-weight: bold;
+}
+.unselected{
+    color: black;
+    font-weight: normal;
+}
+#array-mapa{
+    position:absolute;
+    top:600px;
+    font-family: arial;
+    font-size: 14px;
+}
+#array-col{
+    position:absolute;
+    top:600px;
+    font-family: arial;
+    font-size: 14px;
+    display:none;
+}
+#array-colisao{
+    position:absolute;
+    top:600px;
+    font-family: arial;
+    font-size: 14px;
+    display:none;
+}
+.mapa-color{
+    display:inline-block;
+    width:32px;
+    height:32px;
+    font-family:arial;
+    font-size:8px;
+    text-align:center;
+}
+.mapa-colision{
+    display:inline-block;
+    width:32px;
+    height:32px;
+    font-family:arial;
+    font-size:8px;
+    text-align:center;
+}
+.mapa-colisao{
+    display:inline-block;
+    width:32px;
+    height:32px;
+    font-family:arial;
+    font-size:8px;
+    text-align:center;
+}
+#table{
+    width: 100%;
+    display:table;
+}
+#cell{
+    width: 50%;
+    display:table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+
+#escolha-mapa{
+    position:relative;
+    width: 300px;
+    border:solid 1px black;
+    display:inline-block;
+    padding: 10px;
+}
+#escolha-itens{
+    position:relative;
+    width: 300px;
+    top: -250px;
+    left: 10px;
+    border:solid 1px black;
+    display: none;
+    padding: 10px;
+}
+#escolha-colisao{
+    position:relative;
+    width: 300px;
+    top: -250px;
+    left: 10px;
+    border:solid 1px black;
+    display: none;
+    padding: 10px;
+}
+#escolha-mapa0{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:white;
+}
+#escolha-mapa1{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:yellow;
+}
+#escolha-mapa2{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:green;
+}
+#escolha-mapa3{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:blue;
+}
+#escolha-itens0{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:white;
+}
+#escolha-itens1{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:purple;
+}
+#escolha-colisao1{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:transparent;
+}
+#escolha-colisao1{
+    margin-left: 10px;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    background-color:black;
+}
+
+.escolha-sel{
+    border:solid 1px black;
+}
+
+.nenhuma{
+    border: 0px;
+}
+
+.fundo0{
+    background-color:red;
+}
+.fundo1{
+    background-color:yellow;
+}
+.fundo0{
+    background-color:green;
+}

@@ -1,0 +1,57 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    font-family:arial;
+    font-size:12px;
+    }
+    
+#editor_mapa{
+    position:fixed;
+    width: 550px;
+    display:inline-block;
+    height: 550px;
+    font-size:9px;
+    }
+    
+#tools_mapa{
+    position:fixed;
+    left:600px;
+    width: 550px;
+    display:inline-block;
+    height: 550px;
+    background-color:gray;
+    }
+#controles{
+    position:fixed;
+    top:600px;
+}    
+#array_mapa{
+    position:fixed;
+    top:650px;
+    border: 0;
+    width: 100%;
+    display:block;
+    height: 100px;
+    margin: 0;
+    text-align:left;
+    }
+.mapa_color{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width:32px;
+    height:32px;
+    display:inline-block;
+    border:dashed 1px black;
+}
+.textura{
+    border:solid 1px white;
+}
+
+.border{
+    border: 0;
+}
+
+.gridOFF{
+    color:red;
+}
