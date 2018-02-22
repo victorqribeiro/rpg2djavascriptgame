@@ -16,4 +16,4 @@ You can talk to me on victorqribeiro@gmail.com
 Cheers,
 
 
-### Please note that this code was written before I started to go College. All the code above I learned by myself
+### Please note that this code was written before I started college. All the code above I learned by myself
