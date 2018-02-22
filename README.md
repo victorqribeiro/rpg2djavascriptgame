@@ -14,3 +14,6 @@ Just trying to see if anyone cares for this project at all.
 You can talk to me on victorqribeiro@gmail.com
 
 Cheers,
+
+
+### Please note that this code was written before I started to go College. All the code above I learned by myself
